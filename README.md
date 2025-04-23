@@ -1,4 +1,4 @@
-# 翻墙V2ray | 4月23日19.5M/S|免费Shadowrocket/V2ray/SSR/Clash节点机场分享  更新时间 2025-04-23 20:22:47
+# 翻墙V2ray | 4月23日23M/S|免费Clash/Shadowrocket/SSR/V2ray节点机场分享  更新时间 2025-04-23 20:29:43
 所有免费clash节点都爬取自网络，请勿用于非法用途 。节点地址：<a href="https://fanqiangv2ray.github.io" target="_blank">点击跳转</a>
 
 ## clash使用教程：
