@@ -1,4 +1,4 @@
-# 翻墙V2ray | 7月22日18.5M/S|免费Shadowrocket/V2ray/Clash/SSR节点机场分享  更新时间 2025-07-22 09:28:48
+# 翻墙V2ray | 7月28日23M/S|免费Clash/V2ray/SSR/Shadowrocket节点机场分享  更新时间 2025-07-28 08:53:38
 所有免费clash节点都爬取自网络，请勿用于非法用途 。节点地址：<a href="https://fanqiangv2ray.github.io" target="_blank">点击跳转</a>
 
 ## clash使用教程：
@@ -9,23 +9,23 @@
 
 ### Clash订阅链接
 
-- https://fanqiangv2ray.github.io/uploads/2025/07/0-20250722.yaml
-- https://fanqiangv2ray.github.io/uploads/2025/07/1-20250722.yaml
-- https://fanqiangv2ray.github.io/uploads/2025/07/2-20250722.yaml
-- https://fanqiangv2ray.github.io/uploads/2025/07/3-20250722.yaml
-- https://fanqiangv2ray.github.io/uploads/2025/07/4-20250722.yaml
+- https://fanqiangv2ray.github.io/uploads/2025/07/0-20250728.yaml
+- https://fanqiangv2ray.github.io/uploads/2025/07/1-20250728.yaml
+- https://fanqiangv2ray.github.io/uploads/2025/07/2-20250728.yaml
+- https://fanqiangv2ray.github.io/uploads/2025/07/3-20250728.yaml
+- https://fanqiangv2ray.github.io/uploads/2025/07/4-20250728.yaml
 
 ### V2ray订阅链接
 
-- https://fanqiangv2ray.github.io/uploads/2025/07/0-20250722.txt
-- https://fanqiangv2ray.github.io/uploads/2025/07/1-20250722.txt
-- https://fanqiangv2ray.github.io/uploads/2025/07/2-20250722.txt
-- https://fanqiangv2ray.github.io/uploads/2025/07/3-20250722.txt
-- https://fanqiangv2ray.github.io/uploads/2025/07/4-20250722.txt
+- https://fanqiangv2ray.github.io/uploads/2025/07/0-20250728.txt
+- https://fanqiangv2ray.github.io/uploads/2025/07/1-20250728.txt
+- https://fanqiangv2ray.github.io/uploads/2025/07/2-20250728.txt
+- https://fanqiangv2ray.github.io/uploads/2025/07/3-20250728.txt
+- https://fanqiangv2ray.github.io/uploads/2025/07/4-20250728.txt
 
 ### Sing-box订阅链接
 
-- https://fanqiangv2ray.github.io/uploads/2025/07/20250722.json
+- https://fanqiangv2ray.github.io/uploads/2025/07/20250728.json
 
 ## 更多clash节点订阅 ：
 
