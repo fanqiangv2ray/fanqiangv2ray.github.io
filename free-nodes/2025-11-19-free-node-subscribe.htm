@@ -226,9 +226,14 @@ A4: 受政策和市场因素影响，重新上架存在不确定性。用户应�
         管理员可为每个用户设置独立的带宽上限和流量配额。超过配额后可自动阻断或降速，确保服务器资源合理分配，避免单个用户占用过多带宽而影响其他用户体验。<hr />    </div>
 </div>
 <div class="panel panel-default">
-    <div class="panel-heading"><h5>Potatso Lite 是否可导入节点二维码？</h5></div>
+    <div class="panel-heading"><h5>Hiddify Next 用户带宽限制如何配置？</h5></div>
     <div class="panel-body">
-        支持。用户可扫描节点二维码导入节点信息，也可手动输入节点参数。虽然不支持订阅自动更新，但对于轻量用户来说足够满足日常节点管理和流量分流需求。<hr />    </div>
+        管理员可设置每个用户上传、下载和总流量上限，超出限制可自动降速或阻止访问。保证服务器资源合理分配，避免单用户占用过多带宽，提高整体网络公平性。<hr />    </div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading"><h5>Mihomo 节点分组如何自动切换？</h5></div>
+    <div class="panel-body">
+        用户可按延迟、地区或用途将节点分组，并启用策略组。系统会根据节点健康状况和延迟自动切换到最佳节点，保证网页浏览、视频播放和游戏连接稳定顺畅。<hr />    </div>
 </div>
 <div class="panel panel-default">
     <div class="panel-heading"><h5>Sing-box 的多策略组能带来什么优势？</h5></div>
@@ -241,19 +246,9 @@ A4: 受政策和市场因素影响，重新上架存在不确定性。用户应�
         V2Ray 支持按用户标签或端口匹配应用流量，结合策略组可实现指定应用走特定节点。这样可以保证游戏、视频和浏览器流量各自走最优线路，提高访问效率。<hr />    </div>
 </div>
 <div class="panel panel-default">
-    <div class="panel-heading"><h5>Mihomo 节点分组如何自动切换？</h5></div>
+    <div class="panel-heading"><h5>Mihomo 的日志功能如何开启？</h5></div>
     <div class="panel-body">
-        用户可按延迟、地区或用途将节点分组，并启用策略组。系统会根据节点健康状况和延迟自动切换到最佳节点，保证网页浏览、视频播放和游戏连接稳定顺畅。<hr />    </div>
-</div>
-<div class="panel panel-default">
-    <div class="panel-heading"><h5>Hiddify Next 用户带宽限制如何配置？</h5></div>
-    <div class="panel-body">
-        管理员可设置每个用户上传、下载和总流量上限，超出限制可自动降速或阻止访问。保证服务器资源合理分配，避免单用户占用过多带宽，提高整体网络公平性。<hr />    </div>
-</div>
-<div class="panel panel-default">
-    <div class="panel-heading"><h5>Mellow 的 TUN 模式是否支持全局游戏加速？</h5></div>
-    <div class="panel-body">
-        支持。TUN 模式拦截系统 IP 层流量，实现全局代理，确保游戏和其他应用的 UDP/TCP 流量都走代理节点，从而降低延迟，提高游戏体验。<hr />    </div>
+        Mihomo 的日志默认关闭以节省性能。若需调试，可在配置文件中启用 `log-level: debug` 参数，日志将输出详细连接信息与错误提示，便于排查问题。<hr />    </div>
 </div>
 <div class="panel panel-default">
     <div class="panel-heading"><h5>Hysteria2 多路复用对即时通讯的优势是什么？</h5></div>
@@ -261,14 +256,19 @@ A4: 受政策和市场因素影响，重新上架存在不确定性。用户应�
         多路复用可让多个短连接共享同一通道，减少握手次数和加密开销，提高吞吐量和连接稳定性。适合即时通讯应用，保证消息快速传输和稳定接收。<hr />    </div>
 </div>
 <div class="panel panel-default">
-    <div class="panel-heading"><h5>Mihomo 的日志功能如何开启？</h5></div>
+    <div class="panel-heading"><h5>Potatso Lite 是否可导入节点二维码？</h5></div>
     <div class="panel-body">
-        Mihomo 的日志默认关闭以节省性能。若需调试，可在配置文件中启用 `log-level: debug` 参数，日志将输出详细连接信息与错误提示，便于排查问题。<hr />    </div>
+        支持。用户可扫描节点二维码导入节点信息，也可手动输入节点参数。虽然不支持订阅自动更新，但对于轻量用户来说足够满足日常节点管理和流量分流需求。<hr />    </div>
 </div>
 <div class="panel panel-default">
     <div class="panel-heading"><h5>Matsuri 节点延迟排序如何提高访问速度？</h5></div>
     <div class="panel-body">
-        Matsuri 定期测速节点延迟，结合策略组自动选择延迟最低节点处理流量。用户无需手动切换节点即可保持高速访问，提高网页浏览、视频播放和游戏体验的稳定性。    </div>
+        Matsuri 定期测速节点延迟，结合策略组自动选择延迟最低节点处理流量。用户无需手动切换节点即可保持高速访问，提高网页浏览、视频播放和游戏体验的稳定性。<hr />    </div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading"><h5>Mellow 的 TUN 模式是否支持全局游戏加速？</h5></div>
+    <div class="panel-body">
+        支持。TUN 模式拦截系统 IP 层流量，实现全局代理，确保游戏和其他应用的 UDP/TCP 流量都走代理节点，从而降低延迟，提高游戏体验。    </div>
 </div>
 <div class="panel panel-default mt-5">
     <div class="panel-heading">
@@ -297,16 +297,16 @@ A4: 受政策和市场因素影响，重新上架存在不确定性。用户应�
     </div>
     <div class="panel-body">
         <ul class="p-0 x-0" style="list-style: none;margin: 0;padding: 0;">
+                        <li class="py-2"><a href="/free-nodes/2025-10-17-clash-node.htm" title="翻墙V2ray | 10月17日20.6M/S|免费Singbox节点/SSR节点/V2ray节点/Shadowrocket节点/Clash节点节点机场分享">翻墙V2ray | 10月17日20.6M/S|免费Singbox节点/SSR节点/V2ray节点/Shadowrocket节点/Clash节点节点机场分享</a></li>
                         <li class="py-2"><a href="/free-nodes/2025-11-4-free-high-speed-nodes.htm" title="翻墙V2ray | 11月4日21.4M/S|免费Shadowrocket节点/V2ray节点/Clash节点/Singbox节点/SSR节点节点机场分享">翻墙V2ray | 11月4日21.4M/S|免费Shadowrocket节点/V2ray节点/Clash节点/Singbox节点/SSR节点节点机场分享</a></li>
-                        <li class="py-2"><a href="/free-nodes/2025-10-20-free-v2ray-subscribe.htm" title="翻墙V2ray | 10月20日19.3M/S|免费Clash节点/Singbox节点/Shadowrocket节点/SSR节点/V2ray节点节点机场分享">翻墙V2ray | 10月20日19.3M/S|免费Clash节点/Singbox节点/Shadowrocket节点/SSR节点/V2ray节点节点机场分享</a></li>
-                        <li class="py-2"><a href="/free-nodes/2025-10-21-free-clash.htm" title="翻墙V2ray | 10月21日19.8M/S|免费Singbox节点/SSR节点/Clash节点/V2ray节点/Shadowrocket节点节点机场分享">翻墙V2ray | 10月21日19.8M/S|免费Singbox节点/SSR节点/Clash节点/V2ray节点/Shadowrocket节点节点机场分享</a></li>
                         <li class="py-2"><a href="/free-nodes/2025-11-13-clash-v2ray-ss-ssr.htm" title="翻墙V2ray | 11月13日20.1M/S|免费SSR节点/Singbox节点/V2ray节点/Clash节点/Shadowrocket节点节点机场分享">翻墙V2ray | 11月13日20.1M/S|免费SSR节点/Singbox节点/V2ray节点/Clash节点/Shadowrocket节点节点机场分享</a></li>
-                        <li class="py-2"><a href="/free-nodes/2025-10-15-free-ssr-node.htm" title="翻墙V2ray | 10月15日20.6M/S|免费Clash节点/Shadowrocket节点/V2ray节点/SSR节点/Singbox节点节点机场分享">翻墙V2ray | 10月15日20.6M/S|免费Clash节点/Shadowrocket节点/V2ray节点/SSR节点/Singbox节点节点机场分享</a></li>
-                        <li class="py-2"><a href="/free-nodes/2025-11-5-free-subscribe-node.htm" title="翻墙V2ray | 11月5日21.1M/S|免费Clash节点/Singbox节点/SSR节点/Shadowrocket节点/V2ray节点节点机场分享">翻墙V2ray | 11月5日21.1M/S|免费Clash节点/Singbox节点/SSR节点/Shadowrocket节点/V2ray节点节点机场分享</a></li>
-                        <li class="py-2"><a href="/free-nodes/2025-10-5-clash-windows.htm" title="翻墙V2ray | 10月5日18M/S|免费Clash节点/V2ray节点/SSR节点/Shadowrocket节点/Singbox节点节点机场分享">翻墙V2ray | 10月5日18M/S|免费Clash节点/V2ray节点/SSR节点/Shadowrocket节点/Singbox节点节点机场分享</a></li>
-                        <li class="py-2"><a href="/free-nodes/2025-10-7-clash-windows.htm" title="翻墙V2ray | 10月7日21.3M/S|免费Singbox节点/Shadowrocket节点/V2ray节点/Clash节点/SSR节点节点机场分享">翻墙V2ray | 10月7日21.3M/S|免费Singbox节点/Shadowrocket节点/V2ray节点/Clash节点/SSR节点节点机场分享</a></li>
-                        <li class="py-2"><a href="/free-nodes/2025-11-2-free-subscribe-node.htm" title="翻墙V2ray | 11月2日18.7M/S|免费Singbox节点/V2ray节点/Clash节点/SSR节点/Shadowrocket节点节点机场分享">翻墙V2ray | 11月2日18.7M/S|免费Singbox节点/V2ray节点/Clash节点/SSR节点/Shadowrocket节点节点机场分享</a></li>
-                        <li class="py-2"><a href="/free-nodes/2025-11-11-node-share-links.htm" title="翻墙V2ray | 11月11日18.1M/S|免费Singbox节点/SSR节点/V2ray节点/Shadowrocket节点/Clash节点节点机场分享">翻墙V2ray | 11月11日18.1M/S|免费Singbox节点/SSR节点/V2ray节点/Shadowrocket节点/Clash节点节点机场分享</a></li>
+                        <li class="py-2"><a href="/free-nodes/2025-11-1-clash-windows.htm" title="翻墙V2ray | 11月1日20.3M/S|免费Clash节点/SSR节点/Singbox节点/V2ray节点/Shadowrocket节点节点机场分享">翻墙V2ray | 11月1日20.3M/S|免费Clash节点/SSR节点/Singbox节点/V2ray节点/Shadowrocket节点节点机场分享</a></li>
+                        <li class="py-2"><a href="/free-nodes/2025-10-4-clash-v2ray-ss-ssr.htm" title="翻墙V2ray | 10月4日19.5M/S|免费V2ray节点/SSR节点/Singbox节点/Clash节点/Shadowrocket节点节点机场分享">翻墙V2ray | 10月4日19.5M/S|免费V2ray节点/SSR节点/Singbox节点/Clash节点/Shadowrocket节点节点机场分享</a></li>
+                        <li class="py-2"><a href="/free-nodes/2025-10-20-free-v2ray-subscribe.htm" title="翻墙V2ray | 10月20日19.3M/S|免费Clash节点/Singbox节点/Shadowrocket节点/SSR节点/V2ray节点节点机场分享">翻墙V2ray | 10月20日19.3M/S|免费Clash节点/Singbox节点/Shadowrocket节点/SSR节点/V2ray节点节点机场分享</a></li>
+                        <li class="py-2"><a href="/free-nodes/2025-11-29-free-ssr-subscribe.htm" title="翻墙V2ray | 11月29日18.5M/S|免费Singbox节点/SSR节点/Shadowrocket节点/Clash节点/V2ray节点节点机场分享">翻墙V2ray | 11月29日18.5M/S|免费Singbox节点/SSR节点/Shadowrocket节点/Clash节点/V2ray节点节点机场分享</a></li>
+                        <li class="py-2"><a href="/free-nodes/2025-11-6-node-share-links.htm" title="翻墙V2ray | 11月6日19.3M/S|免费Shadowrocket节点/Singbox节点/Clash节点/V2ray节点/SSR节点节点机场分享">翻墙V2ray | 11月6日19.3M/S|免费Shadowrocket节点/Singbox节点/Clash节点/V2ray节点/SSR节点节点机场分享</a></li>
+                        <li class="py-2"><a href="/free-nodes/2025-10-16-clash-node.htm" title="翻墙V2ray | 10月16日20.9M/S|免费Clash节点/Shadowrocket节点/V2ray节点/SSR节点/Singbox节点节点机场分享">翻墙V2ray | 10月16日20.9M/S|免费Clash节点/Shadowrocket节点/V2ray节点/SSR节点/Singbox节点节点机场分享</a></li>
+                        <li class="py-2"><a href="/free-nodes/2025-11-22-free-clash-subscribe.htm" title="翻墙V2ray | 11月22日19M/S|免费Singbox节点/Clash节点/V2ray节点/SSR节点/Shadowrocket节点节点机场分享">翻墙V2ray | 11月22日19M/S|免费Singbox节点/Clash节点/V2ray节点/SSR节点/Shadowrocket节点节点机场分享</a></li>
                     </ul>
     </div>
 </div>
@@ -318,7 +318,7 @@ A4: 受政策和市场因素影响，重新上架存在不确定性。用户应�
     <div class="panel-body">
         <ul class="p-0 x-0" style="list-style: none;margin: 0;padding: 0;">
                         <li class="py-2">
-                <h4><span class="badge" style="float: right;">20</span> <a href="/date/2025-11/" title="2025-11 归档">2025-11</a></h4>
+                <h4><span class="badge" style="float: right;">27</span> <a href="/date/2025-11/" title="2025-11 归档">2025-11</a></h4>
             </li>
                         <li class="py-2">
                 <h4><span class="badge" style="float: right;">26</span> <a href="/date/2025-10/" title="2025-10 归档">2025-10</a></h4>
